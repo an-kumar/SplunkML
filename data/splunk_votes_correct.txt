@@ -1,0 +1,1305 @@
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	immigration=n	synfuels-corporation-cutback=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	aid-to-nicaraguan-contras=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	export-administration-act-south-africa=n
+
+
+party=democrat	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	crime=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	aid-to-nicaraguan-contras=y	mx-missile=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	education-spending=n	superfund-right-to-sue=n	crime=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	mx-missile=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	crime=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	superfund-right-to-sue=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	education-spending=n	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	mx-missile=n	immigration=n	superfund-right-to-sue=y	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	religious-groups-in-schools=y	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=n	el-salvador-aid=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	mx-missile=n	immigration=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=y	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=n
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=y	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=n	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=y	education-spending=n	crime=y	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=y	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=y	crime=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=y	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=n	duty-free-exports=y	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=democrat	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=y	physician-fee-freeze=n	el-salvador-aid=n	religious-groups-in-schools=n	anti-satellite-test-ban=y	aid-to-nicaraguan-contras=y	mx-missile=y	immigration=y	synfuels-corporation-cutback=n	education-spending=n	superfund-right-to-sue=n	crime=n	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=n	synfuels-corporation-cutback=y	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=n	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	duty-free-exports=n	export-administration-act-south-africa=y
+
+
+party=republican	handicapped-infants=n	water-project-cost-sharing=y	adoption-of-the-budget-resolution=n	physician-fee-freeze=y	el-salvador-aid=y	religious-groups-in-schools=y	anti-satellite-test-ban=n	aid-to-nicaraguan-contras=n	mx-missile=n	immigration=y	synfuels-corporation-cutback=n	education-spending=y	superfund-right-to-sue=y	crime=y	export-administration-act-south-africa=n
+
+
