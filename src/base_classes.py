@@ -43,7 +43,7 @@ class SplunkClassifierBase(object):
 		'''
 		pass
 
-	def predict_single_event(self, X_fields, Y_field, event_to_predict):
+	def predict_single_event(self, event_to_predict, X_fields, Y_field):
 		'''
 			to overwrite
 
@@ -69,7 +69,7 @@ class SplunkClassifierBase(object):
 
 	def test_accuracy_splunk_search(self, train_search, test_search, X_fields, Y_field):
 		'''
-			tests the classifier's accuracy using it's predict_splunk_search method. trains on the data found in
+			tests the classifier's accuracy using its predict_splunk_search method. trains on the data found in
 			train_search, tests on the data found in test_search.
 		'''
 		#1: train the classifier
@@ -86,14 +86,50 @@ class SplunkClassifierBase(object):
 		return accuracy
 		
 
-	def test_accuracy_single_event(self, train_search, test_search, feature_fields, class_field):
+	def test_accuracy_single_event(self, train_search, test_search, X_fields, Y_field):
 		'''
+			tests the classifier's accuracy using its predict_single_event method. trains on the data
+			found in train_search, tests on the data found in test_search.
 		'''
-		pass
+		#1: train the classifier
+		self.train(train_search, X_fields, Y_field)
+
+		#2: run the test search, and iterate through events to get accuracy
+		accuracy, correct = self.calculate_accuracy_from_single_events(test_search, X_fields, Y_field)
+
+		print "#### test_accuracy_single_event: %f, num correct: %d" % (accuracy, correct)
+		return accuracy
 
 
 
 ## -- [HELPER FUNCTIONS FOR THE BASE CLASS] -- ##
+
+	def calculate_accuracy_from_single_events(self, test_search, X_fields, Y_field):
+		#1: run the splunk search
+		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
+		job = self.jobs.create(test_search, **search_kwargs)
+
+		#2: iterate through the results
+		correct = 0
+		total = float(job["resultCount"])
+		offset = 0
+		count = 100
+		print "iterating"
+		# iterate
+		while (offset < total):
+			kwargs_paginate = {'count': count, 'offset':offset}
+			search_results = job.results(**kwargs_paginate)
+			for result in results.ResultsReader(search_results):
+				# result is an EVENT
+				prediction = self.predict_single_event(result, X_fields, Y_field)
+				if Y_field not in result:
+					continue # this probably should be checked; if we accidentally foudn a non-event.
+				if prediction == result[Y_field]:
+					correct += 1
+			offset += count
+
+		return correct/total, correct
+
 
 	def calculate_accuracy_from_splunk_prediction_search(self, prediction_search, Y_field):
 		#1: cut the fields to just the ones we're interested in
@@ -116,7 +152,7 @@ class SplunkClassifierBase(object):
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
 				if Y_field not in result or '_test_predict' not in result:
-					continue
+					continue #this probably should be checked 
 				if result[Y_field] == result['_test_predict']:
 					correct += 1
 			offset += count
