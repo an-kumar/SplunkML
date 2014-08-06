@@ -194,8 +194,17 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		splunk_search = 'search %s | ' % search_string 
 
 		# 2: initialize class probabilities with p(y) in log space
-		for i in range(self.num_classes):
-			splunk_search += 'eval prob%s = %s | ' % (i, self.log_prob_priors[i])
+		prob_vec = splunkvector('prob', self.num_classes, self.log_prob_priors)
+		splunk_search += prob_vec.get_string() + ' | '
+		
+
+		# for i in range(self.num_classes):
+			# splunk_search += 'eval prob_%s = %s | ' % (i, self.log_prob_priors[i])
+		# print splunk_search
+		# sys.exit()
+
+		feature_vec = splunkvector('featurevec', len(feature_fields), feature_fields)
+		
 
 		# 3: get mean difference values per class
 		for i in range(self.num_classes):
@@ -224,9 +233,9 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		splunk_search += 'eval multterm = ((1/(%s*%s))) | ' % (self.cov_det_root, pi_term)
 
 		for i in range(self.num_classes):
-			splunk_search += 'eval prob%s = prob%s - ln(multterm) + expterm%s | ' % (i,i,i)
+			splunk_search += 'eval prob_%s = prob_%s - ln(multterm) + expterm%s | ' % (i,i,i)
 
-		splunk_search += 'eval %s=if(prob0>prob1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
+		splunk_search += 'eval %s=if(prob_0>prob_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
 
 
 		print splunk_search
