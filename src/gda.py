@@ -193,45 +193,35 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		# 1: search the right events
 		splunk_search = 'search %s | ' % search_string 
 
-		# 2: initialize class probabilities with p(y) in log space
-		prob_vec = sm.from_vector('prob', self.log_prob_priors)#splunkvector('prob', self.num_classes, self.log_prob_priors)
-		splunk_search += prob_vec.string + ' | '
-		
+		# 2: initialize feature fector and get the meandiff vector
+		'''
+		TODO COMMENT: if can pass in self.sufficient_statistics as a vector rather than first going to splunk string, would be better
+		'''
+		features = sm.from_vector('features', feature_fields)
+		suffstats = sm.from_matrix('suffstats', self.sufficient_statistics)
+		meandiff = (features - suffstats)
 
-		# for i in range(self.num_classes):
-			# splunk_search += 'eval prob_%s = %s | ' % (i, self.log_prob_priors[i])
-		# print splunk_search
-		# sys.exit()
-
-		# 3: get mean difference values per class
-		for i in range(self.num_classes):
-			for j in range(len(feature_fields)):
-				splunk_search += 'eval meandiff%s%s = (%s - %s) | ' % (i,j, feature_fields[j], self.sufficient_statistics[i][j])
-
-		# 4: add p(x|y) to probs, using the multivariate gaussian pdf
-		# i indexes classes
-		# j indexes features
-		# k is used to make the dot product a*b_j for (a*b_j)*c_j (in my notes, change comments in the end)
-		for i in range(self.num_classes):
-			splunk_search += 'eval expterm%s = ' % i
-			for j in range(len(feature_fields)):
-				# make the dot product a*b_j
-				splunk_search += '(('
-				for k in range(len(feature_fields)):
-					splunk_search += '%s*%s + ' % ('meandiff%s%s' % (i,k), self.inv_cov_matrix[k][j])
-				splunk_search = splunk_search[:-2] + ')'
-				# multiply by c_j
-				splunk_search += '*%s) + ' % ('meandiff%s%s' % (i,j))
-			splunk_search = splunk_search[:-3] #remove the last addition
-			splunk_search += ' | eval expterm%s = -.5*expterm%s | ' % (i,i)
-
-
+		# 3: now we're making the exp term in the multivariate gaussian pdf. it's meandiff dot cov dot meandiff.T
+		# first we get dot(meandiff, inv_cov_matrix)
+		icm = sm.from_matrix('invcovmatrix', self.inv_cov_matrix)
+		temp = sm.dot(meandiff,icm)
+		# cxn * nxn -> cxn
+		# now cxn * nxc => cxc
+		final = sm.dot(temp, meandiff.T())
+		# finally we only want the elemnts on the diagonals
+		final_expterms = sm.diag(final)
+		# and we scale by -.5
+		multiplied_expterms = final_expterms * -.5
+		# multiplied_expterms.rename('expterm')
+		# make the pi term and ln it
 		pi_term = np.pi**(len(feature_fields)/float(2))
-		splunk_search += 'eval multterm = ((1/(%s*%s))) | ' % (self.cov_det_root, pi_term)
-
-		for i in range(self.num_classes):
-			splunk_search += 'eval prob_0_%s = prob_0_%s - ln(multterm) + expterm%s | ' % (i,i,i)
-
+		multterm = sm.ln(sm.from_scalar('multerm',(1/(self.cov_det_root*pi_term))))
+		prob_vec = sm.from_vector('prob', self.log_prob_priors)
+		# splunk vector broadcasting takes care of the rest
+		new_prob_vec = (prob_vec - multterm) + multiplied_expterms
+		new_prob_vec.rename('prob')
+		splunk_search += new_prob_vec.string + ' | '
+		# eval string needs to change, but all math is done, thanks to splunkvector!
 		splunk_search += 'eval %s=if(prob_0_0>prob_0_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
 
 
