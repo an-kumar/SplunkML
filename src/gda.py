@@ -16,8 +16,8 @@ from collections import defaultdict
 import numpy as np
 from base_classes import SplunkClassifierBase
 import sys
-from splunkmathclasses import *
 import splunkmath as sm
+from splunkmath import SplunkArray
 
 vote_features = ['handicapped_infants', 'water_project_cost_sharing', 'adoption_of_the_budget_resolution','physician_fee_freeze', 'el_salvador_aid', 'religious_groups_in_schools', 'anti_satellite_test_ban','aid_to_nicaraguan_contras','mx_missile','immigration','synfuels_corporation_cutback','education_spending','superfund_right_to_sue','crime','duty_free_exports']
 vote_search = 'source="/Users/ankitkumar/Documents/Code/SplunkML/naivebayes/splunk_votes_correct.txt"'
@@ -194,17 +194,14 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		splunk_search = 'search %s | ' % search_string 
 
 		# 2: initialize class probabilities with p(y) in log space
-		prob_vec = splunkvector('prob', self.num_classes, self.log_prob_priors)
-		splunk_search += prob_vec.get_string() + ' | '
+		prob_vec = sm.from_vector('prob', self.log_prob_priors)#splunkvector('prob', self.num_classes, self.log_prob_priors)
+		splunk_search += prob_vec.string + ' | '
 		
 
 		# for i in range(self.num_classes):
 			# splunk_search += 'eval prob_%s = %s | ' % (i, self.log_prob_priors[i])
 		# print splunk_search
 		# sys.exit()
-
-		feature_vec = splunkvector('featurevec', len(feature_fields), feature_fields)
-		
 
 		# 3: get mean difference values per class
 		for i in range(self.num_classes):
@@ -233,9 +230,9 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		splunk_search += 'eval multterm = ((1/(%s*%s))) | ' % (self.cov_det_root, pi_term)
 
 		for i in range(self.num_classes):
-			splunk_search += 'eval prob_%s = prob_%s - ln(multterm) + expterm%s | ' % (i,i,i)
+			splunk_search += 'eval prob_0_%s = prob_0_%s - ln(multterm) + expterm%s | ' % (i,i,i)
 
-		splunk_search += 'eval %s=if(prob_0>prob_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
+		splunk_search += 'eval %s=if(prob_0_0>prob_0_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
 
 
 		print splunk_search
