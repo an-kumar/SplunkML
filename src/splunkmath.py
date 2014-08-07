@@ -8,9 +8,10 @@ This is an abstraction to quickly do vector operations in splunk.
 
 '''
 TODO:
-implement .dot, -, +, *, etc passing in a NP VECTOR as second argument (rather than making it a splunkarray first. see comment in gda.py)
+******implement .dot, -, +, *, etc passing in a NP VECTOR as second argument (rather than making it a splunkarray first. see comment in gda.py)*****
 refactor with the new "set element" i.e .set_element(elem), will figure out if there is a pipe before/after, etc
 maybe find_elements is too important to not always call? sucks to always have to do it.
+
 '''
 
 import numpy as np
