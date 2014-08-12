@@ -11,33 +11,26 @@ TODO:
 ******implement .dot, -, +, *, etc passing in a NP VECTOR as second argument (rather than making it a splunkarray first. see comment in gda.py)*****
 refactor with the new "set element" i.e .set_element(elem), will figure out if there is a pipe before/after, etc
 maybe find_elements is too important to not always call? sucks to always have to do it.
+****** IMPLEMENT HASHED NAMES. RENAME IS GOOD ENOUGH!
+
+
+* hashed names
+* initialize from scalar/matrix/vector should not do the line of name_0_0=1, ... etc. just leave 1 as the element, and later when it's used it'll work out
+* names aren't that important. can be temp, as in op.
+
 
 '''
 
 import numpy as np
 
-def find_elements_from_name_shape(name, shape):
-	return np.array([['%s_%s_%s' % (name, i, j) for j in range(shape[1])] for i in range(shape[0])], dtype=object)
+import hashlib
 
-def diag(sa):
-	'''
-	implements np.diag-like operations: NxN matrix -> 1XN matrix of the diagonals
-	'''
-	#check for square shape
-	if not sa.shape[0] == sa.shape[1]:
-		raise Exception ("That shape is not square! %s" % sa.shape)
-	# make new splunk vector
-	output = SplunkArray(sa.name + '_diag', (1, sa.shape[0]))
-	# init string
-	output.string = sa.string + ' | '
-	output.find_elements()
-	# add new logic
-	for i, j in output.iterable():
-		output.set_element(i, j, sa.elems[j][j])
-		# output.string += 'eval %s = %s | ' % (output.elems[i][j], sa.elems[j][j])
-	# output.string = output.string[:-2]
-	return output
+def hash(string):
+	return hashlib.sha1(string).hexdigest()
 
+'''
+INITIALIZATIONS
+'''
 
 def from_scalar(name, scalar):
 	sa = SplunkArray(name, (1,1))
@@ -56,17 +49,94 @@ def from_vector(name, vector):
 	return sa
 
 
-def shape_from_passed_in(shape):
-	# get shape/length
-	if type(shape) == int:
-		# make it a row vector
-		return (1, shape)
-	elif type(shape) == tuple:
-		return shape
-	else:
-		raise Exception ("Shape passed in wasn't an int or a tuple. was a %s" % type(shape))
 
-# ======= [ MATHEMATIC OPERATIONS ] ======= #
+
+
+
+
+
+
+'''
+MATHEMATICAL OPERATIONS
+'''
+
+def sub(one, two):
+	'''
+	implements one - two using numpy-like broadcasting
+	'''
+	return broadcast_apply_elementwise(one, two, '-')
+
+
+def mul(one, two):
+	'''
+	implements one * two
+	'''
+	return broadcast_apply_elementwise(one, two, '*')
+
+
+def add(one, two):
+	'''
+	implements one + two using numpy-like broadcasting
+	'''
+	return broadcast_apply_elementwise(one, two, '+')
+
+
+def div(one, two):
+	'''
+	implements one / two
+	'''
+	return broadcast_apply_elementwise(one, two, '/')
+
+def broadcast_apply_elementwise(one, two, operation):
+	'''
+	overall function that implements +, -, *, /.
+	broadcasts the two arrays and then applies the operation elementwise
+	'''
+	# if two is not an array, try to make a temporary splunkarray to house it
+	if type(two) != SplunkArray:
+		two = make_temp_splunk_array(two)
+
+	# initialize output SA and broadcast elements
+	output, temp_elems_one, temp_elems_two = broadcast(one, two)
+	
+	# return the elementwise operation
+	x= elementwise_arithmetic_operation(output,temp_elems_one, temp_elems_two, operation)
+	print x
+	return x
+
+
+def broadcast(one,two):
+	'''
+	implements broadcasting when given two splunk arrays. called during elementwise arithment operations
+
+	params: two splunk arrays
+	returns: output splunk array, temp_elems_one, temp_elems_two. The temp elems are the result of broadcasting
+	'''
+	new_shape = check_broadcasting(one.shape, two.shape)
+	output = SplunkArray(one.name + '_broadcast_arithmetic_' + two.name, new_shape) # TO CHANGE!#@$
+	# broadcast to temporary SAs
+	temp_elems_one = broadcast_sa_to_shape(one, new_shape)
+	temp_elems_two = broadcast_sa_to_shape(two, new_shape)
+	# fill string
+	output.string = splunk_concat(one.string, two.string)
+	return output, temp_elems_one, temp_elems_two
+
+
+def elementwise_arithmetic_operation(output, elems_one, elems_two, operation):
+	'''
+	elementwise_arithmetic_operation: implements a (+|-|*|/) b, as all of these operations have the same syntax in splunk
+	this function is called in all of the following: add, sub, mul, div. In all of them, the arrays are broadcasted to the same size, and then this function is called to do elementwise manipulation.
+
+	params: a splunk array, two sets of elements and an operation
+	returns: the same splunk array, now with each element set to the correct arithmetic operation
+	'''
+	if elems_one.shape != elems_two.shape:
+		raise ("elementwise operation error: shapes not the same. Check broadcasting. Shapes were %s, %s" % (elems_one.shape, elems_two.shape))
+	for i,j in output.iterable():
+		output.set_element(i, j, '%s %s %s' % (elems_one[i][j], operation, elems_two[i][j]))
+	return output
+
+
 def dot(one, two):
 	# check shapes
 	if one.shape[1] != two.shape[0]:
@@ -101,70 +171,31 @@ def ln(sa):
 	return elementwise_func(sa, 'ln')
 
 
-def mul_scalar(one, two):
-	# assumes two is a scalar
-	output = SplunkArray(one.name+'_mul_', one.shape)
-	output.string = one.string + ' | '
+
+
+'''
+NUMPY LIKE FUNCTIONS
+'''
+def diag(sa):
+	'''
+	implements np.diag-like operations: NxN matrix -> 1XN matrix of the diagonals
+	'''
+	#check for square shape
+	if not sa.shape[0] == sa.shape[1]:
+		raise Exception ("That shape is not square! %s" % sa.shape)
+	# make new splunk vector
+	output = SplunkArray(sa.name + '_diag', (1, sa.shape[0]))
+	# init string
+	output.string = sa.string + ' | '
 	output.find_elements()
-	for i,j in output.iterable():
-		output.set_element(i, j, '%s*%s' % (one.elems[i][j], str(two)))
-		# output.string += 'eval %s = %s*%s | ' % (output.elems[i][j], one.elems[i][j], str(two))
-	# output.string = output.string [:-2]
+	# add new logic
+	for i, j in output.iterable():
+		output.set_element(i, j, sa.elems[j][j])
+		# output.string += 'eval %s = %s | ' % (output.elems[i][j], sa.elems[j][j])
+	# output.string = output.string[:-2]
 	return output
 
 
-'''
-def elementwise_multiplication(output_name, elems_one, elems_two):
-	
-	elementwise mult elems_one * elems_two
-	
-	# check they're the same shape
-	if elems_one.shape != elems_two.shape:
-		raise ("elementwise subtraction error: shapes not the same. %s, %s" % (elems_one.shape, elems_two.shape))
-	string = ''
-	for i in range(elems_one.shape[0]):
-		for j in range(elems_one.shape[1]):
-			string += 'eval %s_%s_%s = %s - %s | ' % (output_name, i, j, elems_one[i][j], elems_two[i][j])
-	return string[:-2]
-'''
-
-
-def add(one, two):
-	'''
-	implements one - two using numpy-like broadcasting
-	note that because splunkarrays are only 2-dimensional, this is significantly easier than numpy stuff
-	'''
-	#check shape
-	new_shape = check_broadcasting(one.shape, two.shape)
-	output = SplunkArray(one.name + '_add_' + two.name, new_shape)
-	# broadcast to temporary SAs
-	temp_elems_one = broadcast_sa_to_shape(one, new_shape)
-	temp_elems_two = broadcast_sa_to_shape(two, new_shape)
-	# fill string
-	output.string = splunk_concat(one.string, two.string)
-	#since now the two temps are the same size, we can do simple element wise subtraction
-	output = elementwise_addition(output, temp_elems_one, temp_elems_two)
-	# output.find_elements()
-	return output
-
-def elementwise_addition(output, elems_one, elems_two):
-	'''
-	elementwise subtraction elems_one - elems_two
-	'''
-	# check they're the same shape
-	if elems_one.shape != elems_two.shape:
-		raise ("elementwise subtraction error: shapes not the same. %s, %s" % (elems_one.shape, elems_two.shape))
-	for i,j in output.iterable():
-		output.set_element(i,j, '%s + %s' % (elems_one[i][j], elems_two[i][j]))
-	# # string = ''
-	# # for i in range(elems_one.shape[0]):
-	# # 	for j in range(elems_one.shape[1]):
-	# # 		string += 'eval %s_%s_%s = %s + %s | ' % (output_name, i, j, elems_one[i][j], elems_two[i][j])
-	# return string[:-2]
-	return output
-
-
-# ======== [ MATHEMATIC OPERATIONS END ] ========== #
 
 def vector_dot_string(fields_one, fields_two):
 	'''
@@ -190,6 +221,14 @@ def transpose(sa):
 	new_sa.find_elements()
 	return new_sa
 
+
+
+'''
+SHAPE, BROADCASTING & SPLUNK UTILS
+'''
+
+def find_elements_from_name_shape(name, shape):
+	return np.array([['%s_%s_%s' % (name, i, j) for j in range(shape[1])] for i in range(shape[0])], dtype=object)
 
 
 def check_broadcasting(shape_one, shape_two):
@@ -238,40 +277,54 @@ def splunk_concat(one, two):
 	else:
 		return one + ' | ' + two
 
-def sub(one, two):
-	'''
-	implements one - two using numpy-like broadcasting
-	note that because splunkarrays are only 2-dimensional, this is significantly easier than numpy stuff
-	'''
-	#check shape
-	new_shape = check_broadcasting(one.shape, two.shape)
-	output = SplunkArray(one.name + '_sub_' + two.name, new_shape)
-	# broadcast to temporary SAs
-	temp_elems_one = broadcast_sa_to_shape(one, new_shape)
-	temp_elems_two = broadcast_sa_to_shape(two, new_shape)
-	# fill string
-	output.string = splunk_concat(one.string, two.string)# + '| ' + two.string + '| '
-	#since now the two temps are the same size, we can do simple element wise subtraction
-	output = elementwise_subtraction(output, temp_elems_one, temp_elems_two)
-	# output.find_elements()
-	return output
 
-def elementwise_subtraction(output, elems_one, elems_two):
-	'''
-	elementwise subtraction elems_one - elems_two
-	'''
-	# check they're the same shape
-	if elems_one.shape != elems_two.shape:
-		raise ("elementwise subtraction error: shapes not the same. %s, %s" % (elems_one.shape, elems_two.shape))
-	for i,j in output.iterable():
-		output.set_element(i, j, '%s - %s' % (elems_one[i][j], elems_two[i][j]))
-	return output
-	# string = ''
-	# for i in range(elems_one.shape[0]):
-	# 	for j in range(elems_one.shape[1]):
-	# 		string += 'eval %s_%s_%s = %s - %s | ' % (output_name, i, j, elems_one[i][j], elems_two[i][j])
-	# return string[:-2]
+def shape_from_passed_in(shape):
+	# get shape/length
+	if type(shape) == int:
+		# make it a row vector
+		return (1, shape)
+	elif type(shape) == tuple:
+		return shape
+	else:
+		raise Exception ("Shape passed in wasn't an int or a tuple. was a %s" % type(shape))
 
+
+def make_temp_splunk_array(argument):
+	'''
+	usage: a = make_temp_splunk_array(1) or make_temp_splunk_array([1,2,3]) or make_temp_splunk_array(np.array([[1,2,3],[4,5,6]]))
+
+	makes a temp splunk array with no string and with elems being the actual numbers given
+	'''
+	# try a bunch of different types:
+	if type(argument) == float or type(argument) == int:
+		shape = (1,1)
+		elems = np.array([[argument]])
+	elif type(argument) == list:
+		if type(argument[0]) == list:
+			shape = (len(argument), len(argument[0]))
+			elems = np.array(argument)
+		else:
+			shape = (1, len(argument))
+			elems = np.array([argument])
+	elif type(argument) == np.ndarray:
+		# numpy uses the (n,) convention for n length arrays - so far, splunkmath uses (1,n). so we need to check for htat.
+		if len(argument.shape) == 1:
+			shape = (1, argument.shape[0])
+			elems = np.array([argument])
+		else:
+			shape = argument.shape
+			elems = argument
+
+	else:
+		raise Exception("You didn't pass in a float, int, list, or numpy array. You passed in a %s" % type(argument))
+
+	# now initialize an empty SplunkArray, name doesn't matter
+	sa = SplunkArray('temp_UNIQUEHASHTOCHANGE', shape)
+	# set the elements to the argument itself
+	sa.elems = elems
+	# make sure the string is the empty string
+	sa.string = ''
+	return sa
 
 
 
@@ -291,6 +344,12 @@ class SplunkArray(object):
 		-elems
 	'''
 	def __init__(self, name, shape):
+		'''
+		__init__ is meant to .. (trying to emulate np.array() with the code from make_temp_splunk_array, but not sure how to structure)
+		'''
+
+
+
 		# shape: shape of the array
 		self.shape = self.shape_from_passed_in(shape)
 		# name: what to call it in the string
@@ -315,7 +374,7 @@ class SplunkArray(object):
 	def initialize_from_scalar(self, scalar):
 		raise NotImplementedError
 
-
+# -------- TO REWRITE: find_elements() should also set the string perhaps? pass in array to __init__ numpy style?
 
 	def initialize_from_vector(self, vector):
 		'''
@@ -402,8 +461,9 @@ class SplunkArray(object):
 
 	def __mul__(self, other):
 		# CURRENTLY ONLY IMPLEMENTS SCALAR OTHERS (ACTUAL SCALARS)
-		if (type(other) == int or type(other) == float):
-			return mul_scalar(self, other)
+		return mul(self, other)
+		# if (type(other) == int or type(other) == float):
+			# return mul_scalar(self, other)
 
 
 
