@@ -92,41 +92,4 @@ def transpose(sa):
 	new_sa.find_elements()
 	return new_sa
 
-def make_temp_splunk_array(argument):
-	'''
-	usage: a = make_temp_splunk_array(1) or make_temp_splunk_array([1,2,3]) or make_temp_splunk_array(np.array([[1,2,3],[4,5,6]]))
-
-	makes a temp splunk array with no string and with elems being the actual numbers given
-	'''
-	# try a bunch of different types:
-	if type(argument) == float or type(argument) == int:
-		shape = (1,1)
-		elems = np.array([[argument]])
-	elif type(argument) == list:
-		if type(argument[0]) == list:
-			shape = (len(argument), len(argument[0]))
-			elems = np.array(argument)
-		else:
-			shape = (1, len(argument))
-			elems = np.array([argument])
-	elif type(argument) == np.ndarray:
-		# numpy uses the (n,) convention for n length arrays - so far, splunkmath uses (1,n). so we need to check for htat.
-		if len(argument.shape) == 1:
-			shape = (1, argument.shape[0])
-			elems = np.array([argument])
-		else:
-			shape = argument.shape
-			elems = argument
-
-	else:
-		raise Exception("You didn't pass in a float, int, list, or numpy array. You passed in a %s" % type(argument))
-
-	# now initialize an empty SplunkArray, name doesn't matter
-	sa = SplunkArray('temp_UNIQUEHASHTOCHANGE', shape)
-	# set the elements to the argument itself
-	sa.elems = elems
-	# make sure the string is the empty string
-	sa.string = ''
-	return sa
-
 	
