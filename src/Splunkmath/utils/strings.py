@@ -1,4 +1,4 @@
-
+import hashlib
 def splunk_concat(one, two):
 	'''
 	checks to see if the end of string "one" has a pipe; if it does, simply concatenates it with two. Else, concantenates it with a pipe and two.
@@ -9,7 +9,7 @@ def splunk_concat(one, two):
 		return one + ' | ' + two
 
 
-def hash(string):
+def sha_hash(string):
 	'''
 	hashes a string to another string
 	'''

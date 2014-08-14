@@ -28,8 +28,8 @@ class SplunkArray(object):
 		# string: how to create this object in a splunk search
 		self.string = ''
 		# elems: the names of the elements of this object
-		# self.elems = np.array([],dtype=object) #stored as np arrays
-		self.find_elements()
+		self.elems = None#stored as np arrays, but not always stored
+		
 
 
 	def shape_from_passed_in(self, shape):

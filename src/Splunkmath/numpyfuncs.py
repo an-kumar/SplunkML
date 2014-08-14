@@ -1,8 +1,47 @@
+from utils.strings import *
+import time
+import numpy as np
+from classes import *
 
+def array(argument):
+	'''
+	implements a splunkarray equivalent of np.array()
 
+	params:
+		-argument: either a scalar, a list, a list of lists, or a numpy array
+	returns:
+		- a splunkarray from the input argument
+	'''
+	# try a bunch of different types:
+	if type(argument) == float or type(argument) == int:
+		shape = (1,1)
+		elems = np.array([[argument]])
+	elif type(argument) == list:
+		if type(argument[0]) == list:
+			shape = (len(argument), len(argument[0]))
+			elems = np.array(argument)
+		else:
+			shape = (1, len(argument))
+			elems = np.array([argument])
+	elif type(argument) == np.ndarray:
+		# numpy uses the (n,) convention for n length arrays - so far, splunkmath uses (1,n). so we need to check for htat.
+		if len(argument.shape) == 1:
+			shape = (1, argument.shape[0])
+			elems = np.array([argument])
+		else:
+			shape = argument.shape
+			elems = argument
 
+	else:
+		raise Exception("You didn't pass in a float, int, list, or numpy array. You passed in a %s" % type(argument))
 
-
+	# now initialize an empty SplunkArray, name doesn't matter
+	sa = SplunkArray(sha_hash(str(time.time())), shape)
+	# set the elements to the argument itself
+	sa.elems = elems
+	# make sure the string is the empty string
+	sa.string = ''
+	return sa
 
 
 def from_scalar(name, scalar):
