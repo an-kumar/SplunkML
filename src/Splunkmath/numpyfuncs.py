@@ -60,6 +60,15 @@ def from_vector(name, vector):
 	sa.initialize_from_vector(vector)
 	return sa
 
+def zeros(shape):
+	'''
+	implements np.zeros(shape) operation
+	'''
+	sa = SplunkArray(time_hash(), shape)
+	sa.elems = np.zeros(shape)
+	sa.string = ''
+	return sa
+
 def diag(sa):
 	'''
 	implements np.diag-like operations: NxN matrix -> 1XN matrix of the diagonals

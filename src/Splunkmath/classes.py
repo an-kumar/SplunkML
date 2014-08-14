@@ -119,6 +119,13 @@ class SplunkArray(object):
 			for j in range(self.shape[1]):
 				yield i,j
 
+	def elements_iterable(self):
+		'''
+		returns a generator going through each value of self.elems
+		'''
+		for i,j in self.iterable():
+			yield self.elems[i,j] ## TO CHANGE WITH IMPLICIT ELEMS IN THE FUTURE!!!!
+
 	def set_element(self, i, j, val):
 		'''
 		sets element i,j to val

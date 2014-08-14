@@ -33,58 +33,81 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 		super(SplunkGaussianNaiveBayes, self).__init__(host, port, username, password)
 
 	def predict_splunk_search(self, X_fields, Y_field, search_string, output_field):
+		'''
+		uses splunkmath to predict every event in the splunk search.
+		'''
 		pass
 
+
 	def predict_single_event(self, event_to_predict, X_fields, Y_field):
-		pass
+		'''
+		uses numpy to predict a single event
+		'''
+		# this is easy to do with pdfs, but just to make sure we have everything correct, we'll do everything out
+		# turn the event into a numpy array
+		# print event_to_predict
+		# print event_to_predict.__dict__
+		x = np.zeros(len(X_fields))
+		for feature in X_fields:
+			x[self.feature_mapping[feature]] = event_to_predict[feature]
+
+		# find the exp terms of the gaussian pdf (x - mu) ^2 / 2 (var)^2 (make it negative at the end)
+		expterms = (x - self.feature_averages)**2 / self.feature_variances
+		expterms = -.5*expterms
+
+		# find the pi term
+		pi_terms = -.5*(np.log(self.feature_variances*2*np.pi))
+
+		# add them together since it's log space
+		feature_probs = pi_terms + expterms
+		# sum by rows (since in naive bayes P(x|y) = P(x1|y)P(x2|y)...)
+		class_probs = np.sum(feature_probs, axis=1)
+		# add back to original probabilities
+		probabilities = self.log_prob_priors + class_probs
+		return self.class_mapping[np.argmax(probabilities)], x
+
+	
+
 
 	def train(self, search_string, X_fields, Y_field):
 		'''
-		We need to extract the sufficient statistics listed under the class definition. To do this, we'll run a splunk search, initialize some splunk vectors, do some vector math, and be done with it.
+		We need to extract the sufficient statistics listed under the class definition. To do this, we'll run a splunk search with stats
 
-		Strategy:
-			- get a (numpy) vector of averages per feature per class from the first pass
-			- go through the data again and get variances of features per class
 		'''
 		# get averages per feature, priors, and set mappings.
-		# sets self.feature_averages (num_classes, num_features), self.priors(1, num_classes), and self.log_prob_priors
+		# sets self.feature_variances, self.feature_averages (num_classes, num_features), self.priors(1, num_classes), and self.log_prob_priors
 		# also sets self.class_mapping and self.feature_mapping
-		self.set_mapping_get_feature_averages_and_priors(search_string, X_fields, Y_field)
-
-		# go through data again and set self.feature_variances
-		self.set_feature_variances(search_string, X_fields, Y_field)
-
-
-
-
-	def set_feature_variances(self, search_string, X_fields, Y_field):
-		# initialize search
-		splunk_search = 'search %s' % search_string
-
-		# initialize splunk vector from the feature averages
-		feature_averages=  sm.array(self.feature_averages)
-
-
-
-
-
-
-
-
-
-
-
-
-	def set_mapping_get_feature_averages_and_priors(self, search_string, X_fields, Y_field):
-		job = self.feature_averages_splunk_search(search_string, X_fields, Y_field)
+		job = self.feature_averages_variances_splunk_search(search_string, X_fields, Y_field)
 		# priors has shape (1, num_classes), feature_averages has shape (num_classes, num_features)
-		priors, feature_averages = self.populate_feature_averages_from_search(job, X_fields, Y_field)
+		priors, feature_averages, feature_variances = self.populate_feature_averages_from_search(job, X_fields, Y_field)
 		self.priors = priors
 		self.log_prob_priors = np.log(priors)
 		self.feature_averages = feature_averages
+		self.feature_variances = feature_variances
+		# that's all the sufficient statistics we need!
 
-	def feature_averages_splunk_search(self, search_string, feature_fields, class_field):
-		splunk_search = 'search %s | stats avg, count by %s' % (search_string, class_field)
+
+
+
+
+
+
+
+
+
+
+
+	def set_mapping_get_feature_averages_variances_and_priors(self, search_string, X_fields, Y_field):
+		job = self.feature_averages_variances_splunk_search(search_string, X_fields, Y_field)
+		# priors has shape (1, num_classes), feature_averages has shape (num_classes, num_features)
+		priors, feature_averages, feature_variances = self.populate_feature_averages_from_search(job, X_fields, Y_field)
+		self.priors = priors
+		self.log_prob_priors = np.log(priors)
+		self.feature_averages = feature_averages
+		self.feature_variances = feature_variances
+
+	def feature_averages_variances_splunk_search(self, search_string, feature_fields, class_field):
+		splunk_search = 'search %s | stats avg, var, count by %s' % (search_string, class_field)
 		print splunk_search
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
 		job = self.jobs.create(splunk_search, **search_kwargs)
@@ -99,6 +122,7 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 		self.num_classes = result_count # result count is the number of classes
 		# 1: initialize numpy arrays
 		feature_averages=np.zeros((result_count, len(feature_fields)))
+		feature_variances = np.zeros((result_count, len(feature_fields)))
 		
 		priors=np.zeros(result_count)
 		offset = 0
@@ -118,18 +142,21 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 				for field in feature_fields:
 					if field in self.feature_mapping:
 						feature_averages[class_curr][self.feature_mapping[field]] = result['avg(%s)' % field]
+						feature_variances[class_curr][self.feature_mapping[field]] = result['var(%s)' % field]
+
 					else:
 						self.feature_mapping[field] = feature_curr
 						self.feature_mapping[feature_curr] = field
 					# update sufficient statistics
 						feature_averages[class_curr][feature_curr] = result['avg(%s)' % field]
+						feature_variances[class_curr][feature_curr] = result['var(%s)' % field]
 						feature_curr += 1
 
 				class_curr += 1
 			offset += count
 
 		priors = priors / priors.sum()
-		return priors, feature_averages
+		return priors, feature_averages, feature_variances
 
 
 
@@ -138,5 +165,7 @@ if __name__ == '__main__':
 	password = raw_input("What is your password? ")
 	snb = SplunkGaussianNaiveBayes(host="localhost", port=8089, username=username, password=password)
 	snb.train(reaction_search, reaction_features, reaction_class)
+	event = {x:60 for x in reaction_features}
+	output= snb.test_accuracy_single_event(reaction_search, reaction_search, reaction_features, reaction_class)
 
 		

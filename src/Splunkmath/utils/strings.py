@@ -1,4 +1,5 @@
 import hashlib
+import time
 def splunk_concat(one, two):
 	'''
 	checks to see if the end of string "one" has a pipe; if it does, simply concatenates it with two. Else, concantenates it with a pipe and two.
@@ -14,3 +15,9 @@ def sha_hash(string):
 	hashes a string to another string
 	'''
 	return hashlib.sha1(string).hexdigest()
+
+def time_hash():
+	'''
+	hashes the current time
+	'''
+	return sha_hash(str(time.time()))

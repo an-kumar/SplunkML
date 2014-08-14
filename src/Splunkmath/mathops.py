@@ -126,8 +126,23 @@ def elementwise_func(sa, func):
 		output.set_element(i,j, func+'(%s)' % sa.elems[i][j])
 	return output
 
+def elementwise_func_withargs(sa, func, arg):
+	'''
+	elementwise func "func" on the elements of sa, with passed in arg 'arg'. func expected to be the name of a func in splunk i.e "pow"
+
+	pow(field, exponent)
+	'''
+	output = SplunkArray(func+'_d'+sa.name, sa.shape)
+	output.string = sa.string 
+	output.find_elements()
+	for i,j in sa.iterable():
+		output.set_element(i,j, func+'(%s,%s)' % (sa.elems[i][j], arg))
+	return output
 def ln(sa):
 	return elementwise_func(sa, 'ln')
+
+def pow(sa, exponent):
+	return elementwise_func_withargs(sa, 'pow', exponent)
 
 
 

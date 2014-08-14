@@ -109,9 +109,11 @@ class SplunkClassifierBase(object):
 	def calculate_accuracy_from_single_events(self, test_search, X_fields, Y_field):
 		#1: run the splunk search
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
-		job = self.jobs.create(test_search, **search_kwargs)
+		job = self.jobs.create('search %s | table %s %s' % (test_search, ' '.join(X_fields), Y_field), **search_kwargs)
 
 		#2: iterate through the results
+		arrs= []
+		ys = []
 		correct = 0
 		total = float(job["resultCount"])
 		offset = 0
@@ -123,13 +125,18 @@ class SplunkClassifierBase(object):
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
 				# result is an EVENT
-				prediction = self.predict_single_event(result, X_fields, Y_field)
 				if Y_field not in result:
 					continue # this probably should be checked; if we accidentally foudn a non-event.
-				if prediction == result[Y_field]:
-					correct += 1
+				else:
+					prediction,x  = self.predict_single_event(result, X_fields, Y_field)
+					print prediction
+					arrs.append(x)
+					ys.append(result[Y_field])
+					if prediction == result[Y_field]:
+						correct += 1
 			offset += count
-
+		self.arrs = arrs
+		self.ys = ys
 		return correct/total, correct
 
 
