@@ -30,6 +30,8 @@ class SplunkClassifierBase(object):
 		self.trained = False
 		self.feature_fields = None
 		self.accuracy_tested = False
+		self.feature_mapping = {}
+		self.class_mapping = {}
 
 
 ### -- [FUNCTIONS TO OVERWRITE] -- ##
@@ -41,7 +43,7 @@ class SplunkClassifierBase(object):
 
 			must return a splunk search string that ends with an eval output_field = prediction term
 		'''
-		pass
+		raise NotImplementedError
 
 	def predict_single_event(self, event_to_predict, X_fields, Y_field):
 		'''
@@ -49,7 +51,7 @@ class SplunkClassifierBase(object):
 
 			must return a prediction for Y_field of event_to_predict. prediction is a string.
 		'''
-		pass
+		raise NotImplementedError
 
 
 	def train(self, search_string, X_fields, Y_field):
@@ -58,7 +60,7 @@ class SplunkClassifierBase(object):
 
 			must train params on the data returned by search_string, and store params in the class
 		'''
-		pass		
+		raise NotImplementedError		
 
 
 

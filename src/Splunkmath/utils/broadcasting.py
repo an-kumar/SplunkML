@@ -1,5 +1,6 @@
 from strings import *
-
+from ..classes import SplunkArray
+import numpy as np
 def broadcast(one,two):
 	'''
 	implements broadcasting when given two splunk arrays. called during elementwise arithment operations.

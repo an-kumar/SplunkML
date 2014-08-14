@@ -1,13 +1,9 @@
 '''
-SplunkML naive bayes classifier
+SplunkML Gaussian Discriminant Analysis
 
 Ankit Kumar
 ankitk@stanford.edu
 
-
-
-Todo: 	(1) get better with numpy arrays...
-		(2) add laplace smoothing - it's not the same as sklearn right now!
 '''
 import splunklib.client as client
 import splunklib.results as results
@@ -16,7 +12,7 @@ from collections import defaultdict
 import numpy as np
 from base_classes import SplunkClassifierBase
 import sys
-import splunkmath as sm
+import Splunkmath as sm
 from Splunkmath.classes import SplunkArray
 
 vote_features = ['handicapped_infants', 'water_project_cost_sharing', 'adoption_of_the_budget_resolution','physician_fee_freeze', 'el_salvador_aid', 'religious_groups_in_schools', 'anti_satellite_test_ban','aid_to_nicaraguan_contras','mx_missile','immigration','synfuels_corporation_cutback','education_spending','superfund_right_to_sue','crime','duty_free_exports']
@@ -199,7 +195,7 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		'''
 		features = sm.from_vector('features', feature_fields)
 		suffstats = sm.from_matrix('suffstats', self.sufficient_statistics)
-		meandiff = (features - suffstats)
+		meandiff = sm.sub(features,suffstats)
 
 		# 3: now we're making the exp term in the multivariate gaussian pdf. it's meandiff dot cov dot meandiff.T
 		# first we get dot(meandiff, inv_cov_matrix)
@@ -211,14 +207,14 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		# finally we only want the elemnts on the diagonals
 		final_expterms = sm.diag(final)
 		# and we scale by -.5
-		multiplied_expterms = final_expterms * -.5
+		multiplied_expterms = sm.mul(final_expterms,-.5)
 		# multiplied_expterms.rename('expterm')
 		# make the pi term and ln it
 		pi_term = np.pi**(len(feature_fields)/float(2))
 		multterm = sm.ln(sm.from_scalar('multerm',(1/(self.cov_det_root*pi_term))))
 		prob_vec = sm.from_vector('prob', self.log_prob_priors)
 		# splunk vector broadcasting takes care of the rest
-		new_prob_vec = (prob_vec - multterm) + multiplied_expterms
+		new_prob_vec = sm.add(sm.sub(prob_vec,multterm),multiplied_expterms)
 		new_prob_vec.rename('prob')
 		splunk_search += new_prob_vec.string + ' | '
 		# eval string needs to change, but all math is done, thanks to splunkvector!
@@ -255,22 +251,6 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 
 		
 
-
-	# def compare_sklearn(self):
-	# 	'''
-	# 		compares our implementation to sklearn's implementation. 
-
-	# 		assumes that evaluate_accuracy has been called.
-	# 	'''
-	# 	if not self.accuracy_tested:
-	# 		raise 'you must test the accuracy of the classifier before comparing to sklearn'
-	# 	print "--> Checking sklearn's accuracy..."
-	# 	X = np.array(self.np_reps)
-	# 	nb = BernoulliNB(alpha=0)
-	# 	y = np.array(self.gold)
-	# 	nb.fit(X,y)
-	# 	print "...done."
-	# 	print "sklearn accuracy is %f. Our accuracy was %f. " % (nb.score(X,y), self.accuracy)
 
 
 if __name__ == '__main__':
