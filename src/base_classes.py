@@ -112,8 +112,7 @@ class SplunkClassifierBase(object):
 		job = self.jobs.create('search %s | table %s %s' % (test_search, ' '.join(X_fields), Y_field), **search_kwargs)
 
 		#2: iterate through the results
-		arrs= []
-		ys = []
+		
 		correct = 0
 		total = float(job["resultCount"])
 		offset = 0
@@ -128,15 +127,12 @@ class SplunkClassifierBase(object):
 				if Y_field not in result:
 					continue # this probably should be checked; if we accidentally foudn a non-event.
 				else:
-					prediction,x  = self.predict_single_event(result, X_fields, Y_field)
-					print prediction
-					arrs.append(x)
-					ys.append(result[Y_field])
+					prediction  = self.predict_single_event(result, X_fields, Y_field)
+					
 					if prediction == result[Y_field]:
 						correct += 1
 			offset += count
-		self.arrs = arrs
-		self.ys = ys
+		
 		return correct/total, correct
 
 

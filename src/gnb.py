@@ -64,7 +64,7 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 		class_probs = np.sum(feature_probs, axis=1)
 		# add back to original probabilities
 		probabilities = self.log_prob_priors + class_probs
-		return self.class_mapping[np.argmax(probabilities)], x
+		return self.class_mapping[np.argmax(probabilities)]
 
 	
 
