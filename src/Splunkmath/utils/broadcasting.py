@@ -67,6 +67,8 @@ def broadcast_sa_to_shape(sa, shape):
 				temp_elems[i][j] = sa.elems[i][0]
 			elif sa.shape[1] == shape[1]:
 				temp_elems[i][j] = sa.elems[0][j]
+			elif sa.shape[0] == 1 and sa.shape[1] == 1:
+				temp_elems[i][j] = sa.elems[0][0]
 			else:
 				raise Exception ("something went wrong with broadcasting. Check deeper.")
 	return temp_elems

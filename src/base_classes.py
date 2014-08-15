@@ -37,7 +37,7 @@ class SplunkClassifierBase(object):
 ### -- [FUNCTIONS TO OVERWRITE] -- ##
 
 
-	def predict_splunk_search(self, X_fields, Y_field, search_string, output_field):
+	def predict_splunk_search(self, search_string, X_fields, Y_field, output_field):
 		'''
 			to overwrite
 

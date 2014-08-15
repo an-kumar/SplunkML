@@ -3,6 +3,26 @@ import time
 import numpy as np
 from classes import *
 
+
+
+
+def argmax(sa):
+	'''
+	implements splunkmath equivalent of np.argmax()
+
+	params:
+		-sa: a splunk array
+		-mapping: (class_mapping, output_field) tuple for classifiers
+	returns:
+		-a string with an new eval field, 'argmax_sa.name', that contains in it 
+	notes;
+		-CURRENTLY ONLY SUPPORTS VECTORS!!!!
+		- THIS NEEDS TO HEAVILY CHANGE ( return a splunkarray maybe )
+	'''
+	string = 'eval maxval = max(%s)' % ','.join([str(elem) for elem in sa.elems[0]])
+	nextstring = 'eval argmax_%s = case(%s)' % (sa.name,','.join(['%s=maxval, %s' % (str(sa.elems[0][i]), str(i)) for i in range(len(sa.elems[0]))]))
+	return splunk_concat (string, nextstring)
+
 def array(argument):
 	'''
 	implements a splunkarray equivalent of np.array()
@@ -36,12 +56,27 @@ def array(argument):
 		raise Exception("You didn't pass in a float, int, list, or numpy array. You passed in a %s" % type(argument))
 
 	# now initialize an empty SplunkArray, name doesn't matter
-	sa = SplunkArray(sha_hash(str(time.time())), shape)
+	sa = SplunkArray('field' + sha_hash(str(time.time())), shape)
 	# set the elements to the argument itself
 	sa.elems = elems
 	# make sure the string is the empty string
 	sa.string = ''
 	return sa
+
+def sum(sa, axis=1):
+	if axis==0:
+		sa = transpose(sa) # to test
+
+	new_shape = (1, sa.shape[(axis+1) % 2])
+	new_sa = SplunkArray('field' + time_hash(), new_shape)
+	new_sa.string = sa.string
+	for i,j in new_sa.iterable():
+		# the add string for column j is the sum of all elements from the j'th row of sa
+		add_string = '+'.join([str(elem) for elem in sa.elems[j]])
+		new_sa.set_element(i, j, add_string)
+	return new_sa
+
+
 
 
 def from_scalar(name, scalar):
@@ -64,7 +99,7 @@ def zeros(shape):
 	'''
 	implements np.zeros(shape) operation
 	'''
-	sa = SplunkArray(time_hash(), shape)
+	sa = SplunkArray('field' +time_hash(), shape)
 	sa.elems = np.zeros(shape)
 	sa.string = ''
 	return sa

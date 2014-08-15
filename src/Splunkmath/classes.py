@@ -131,7 +131,7 @@ class SplunkArray(object):
 		sets element i,j to val
 		'''
 		# see if there's a trailing pipe
-		if self.string.split()[-1] != '|':
+		if (len(self.string) > 0 and self.string.split()[-1] != '|'):
 			self.string += ' | '
 		# set the eval string
 		self.string += 'eval %s=%s' % (self.elems[i][j], val)
