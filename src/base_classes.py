@@ -16,10 +16,10 @@ import numpy as np
 import sys
 
 
-class SplunkClassifierBase(object):
-	''' SplunkClassifierBase
+class SplunkPredictorBase(object):
+	''' SplunkPredictorBase
 
-	Base class of splunk classifiers. Functionality includes evaluate_accuracy(feature_fields, class_field)
+	Base class of splunk predictors.
 
 	'''
 
@@ -67,7 +67,10 @@ class SplunkClassifierBase(object):
 
 ### -- [FUNCTIONS TO INHERIT] -- ##
 
-
+class SplunkClassifierBase(SplunkPredictorBase):
+	'''
+	base class for splunk classifiers (i.e discrete not continuous)
+	'''
 
 	def test_accuracy_splunk_search(self, train_search, test_search, X_fields, Y_field):
 		'''

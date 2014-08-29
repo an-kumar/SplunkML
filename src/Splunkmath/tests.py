@@ -10,3 +10,7 @@ assert SA_two.elems[0][1] == np.array(['field1', 'field2'])[1]
 assert SA_one.shape == (1,3)
 assert SA_two.shape == (1,2)
 tprint("passed")
+
+tprint(".sum()")
+SA = array([1,2,3,4,5])
+# new_sa = 
