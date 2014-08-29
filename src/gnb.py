@@ -115,7 +115,7 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 
 
 
-
+# --------------------------helper functions----------------------------------------
 
 
 
