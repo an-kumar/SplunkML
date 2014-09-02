@@ -2,7 +2,9 @@ from utils.strings import *
 import time
 import numpy as np
 from classes import *
-
+'''
+numpyfuncs: functions that copy numpy funtions, but written for splunkmath
+'''
 
 
 

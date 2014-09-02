@@ -281,14 +281,14 @@ class SplunkRegressorBase(SplunkPredictorBase):
 			tests the classifier's accuracy using its predict_single_event method. trains on the data
 			found in train_search, tests on the data found in test_search.
 		'''
-		raise NotImplementedError
+		
 		#1: train the classifier
 		self.train(train_search, X_fields, Y_field)
 
 		#2: run the test search, and iterate through events to get accuracy
-		accuracy, correct = self.calculate_accuracy_from_single_events(test_search, X_fields, Y_field)
+		accuracy = self.calculate_accuracy_from_single_events(test_search, X_fields, Y_field)
 
-		print "#### test_accuracy_single_event: %f, num correct: %d" % (accuracy, correct)
+		print "#### test_cost_function_single_event: %f" % accuracy
 		return accuracy
 
 
@@ -308,6 +308,7 @@ class SplunkRegressorBase(SplunkPredictorBase):
 		count = 100
 		print "iterating"
 		# iterate
+		squared_diffs = []
 		while (offset < total):
 			kwargs_paginate = {'count': count, 'offset':offset}
 			search_results = job.results(**kwargs_paginate)
@@ -317,12 +318,10 @@ class SplunkRegressorBase(SplunkPredictorBase):
 					continue # this probably should be checked; if we accidentally foudn a non-event.
 				else:
 					prediction  = self.predict_single_event(result, X_fields, Y_field)
-					
-					if prediction == result[Y_field]:
-						correct += 1
+					squared_diffs.append((float(result[Y_field]) - prediction)**2)
 			offset += count
 		
-		return correct/total, correct
+		return .5 * np.average(squared_diffs)
 
 
 	def calculate_accuracy_from_splunk_prediction_search(self, prediction_search, Y_field):

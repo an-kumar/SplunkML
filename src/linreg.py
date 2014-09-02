@@ -10,7 +10,7 @@ import splunklib.results as results
 from collections import defaultdict
 # from scipy.stats import multivariate_normal
 import numpy as np
-from base_classes import SplunkClassifierBase
+from base_classes import SplunkRegressorBase
 import sys
 import splunkmath as sm
 from splunkmath.classes import SplunkArray
@@ -25,13 +25,13 @@ reaction_search = 'source="/users/ankitkumar/documents/code/splunkml/data/splunk
 reaction_class = 'field44' # this can actually be any field, there are 44 of them; but make sure it's removed from reaction features
 assert reaction_class not in reaction_features
 
-class SplunkGaussianNaiveBayes(SplunkRegressorBase):
+class SplunkLinearRegression(SplunkRegressorBase):
 	'''
 	towrite (description)
 	'''
 
 	def __init__(self, host, port, username, password):
-		super(SplunkGaussianNaiveBayes, self).__init__(host, port, username, password)
+		super(SplunkLinearRegression, self).__init__(host, port, username, password)
 
 	def predict_splunk_search(self, search_string, X_fields, Y_field, output_field):
 		'''
@@ -71,24 +71,12 @@ class SplunkGaussianNaiveBayes(SplunkRegressorBase):
 		'''
 		# this is easy to do with pdfs, but just to make sure we have everything correct, we'll do everything out
 		# turn the event into a numpy array
-		x = np.zeros(len(X_fields))
-		for feature in X_fields:
-			x[self.feature_mapping[feature]] = event_to_predict[feature]
+		x, y = sm.event_to_numpy_reps_continuous_continuous(event_to_predict, self.feature_mapping, Y_field, bias=True)	
 
-		# find the exp terms of the gaussian pdf (x - mu) ^2 / 2 (var)^2 (make it negative at the end)
-		expterms = (x - self.feature_averages)**2 / self.feature_variances
-		expterms = -.5*expterms
-
-		# find the pi term
-		pi_terms = -.5*(np.log(self.feature_variances*2*np.pi))
-
-		# add them together since it's log space
-		feature_probs = pi_terms + expterms
-		# sum by rows (since in naive bayes P(x|y) = P(x1|y)P(x2|y)...)
-		class_probs = np.sum(feature_probs, axis=1)
-		# add back to original probabilities
-		probabilities = self.log_prob_priors + class_probs
-		return self.class_mapping[np.argmax(probabilities)]
+		# h(x) defined as theta^T x
+		h_x = np.dot(self.theta.T, x)
+		
+		return h_x
 
 	
 
@@ -99,20 +87,26 @@ class SplunkGaussianNaiveBayes(SplunkRegressorBase):
 
 		theta = (X^T X)^-1 X^T y
 		'''
-		# need to find X^T and X...
+		# doesn't seem like finding these values in splunk itself is the most efficient; if we just pull out X and y, 
+		# we can find everything using numpy. So let's do that
+		# make a feature mapping
+		feature_mapping = {X_fields[i]:i for i in range(len(X_fields))}
+		self.feature_mapping =feature_mapping
+		# make the search job
+		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
+		job = self.jobs.create('search ' +search_string + '| table %s' % ' '.join(X_fields) + ' ' + Y_field, **search_kwargs)
+		X, y = sm.job_to_numpy_reps(job, feature_mapping, Y_field, ('continuous','continuous'), bias=True)
 
-		# get averages per feature, priors, and set mappings.
-		# sets self.feature_variances, self.feature_averages (num_classes, num_features), self.priors(1, num_classes), and self.log_prob_priors
-		# also sets self.class_mapping and self.feature_mapping
-		job = self.feature_averages_variances_splunk_search(search_string, X_fields, Y_field)
-		# priors has shape (1, num_classes), feature_averages has shape (num_classes, num_features)
-		priors, feature_averages, feature_variances = self.populate_feature_averages_from_search(job, X_fields, Y_field)
-		self.priors = priors
-		self.log_prob_priors = np.log(priors)
-		self.feature_averages = feature_averages
-		self.feature_variances = feature_variances
-		# that's all the sufficient statistics we need!
+		# now we solve the normal equations to find theta
+		self.theta = np.dot(np.dot(np.linalg.inv(np.dot(X.T, X)), X.T), y)
+		print self.theta.shape
 
+if __name__ == '__main__':
+	username = raw_input("What is your username? ")
+	password = raw_input("What is your password? ")
+	slr = SplunkLinearRegression(host="localhost", port=8089, username=username, password=password)
+	slr.test_accuracy_single_event(reaction_search, reaction_search,reaction_features, reaction_class)
+	
 
 
 
