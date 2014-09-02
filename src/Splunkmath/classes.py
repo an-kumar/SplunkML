@@ -110,6 +110,14 @@ class SplunkArray(object):
 		self.elems = new_elems
 		return self
 
+	def rename_elem(self, i, j, new_name):
+		'''
+		renames the element in the splunkarray to the given name using regexp
+		'''
+		self.string = self.string.replace(self.elems[i][j], new_name)
+		self.elems[i][j] = new_name
+		return self
+
 
 	def iterable(self):
 		'''

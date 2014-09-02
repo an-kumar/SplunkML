@@ -4,7 +4,7 @@ def splunk_concat(one, two):
 	'''
 	checks to see if the end of string "one" has a pipe; if it does, simply concatenates it with two. Else, concantenates it with a pipe and two.
 	'''
-	if len(one) == 0 or one.split()[-1] == '|':
+	if len(one) == 0 or one.split()[-1] == '|' or two.split()[0] == '|':
 		return one + two
 	else:
 		return one + ' | ' + two

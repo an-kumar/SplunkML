@@ -261,7 +261,6 @@ class SplunkRegressorBase(SplunkPredictorBase):
 			tests the classifier's accuracy using its predict_splunk_search method. trains on the data found in
 			train_search, tests on the data found in test_search. Uses the evaluation metric of ...
 		'''
-		raise NotImplementedError
 		#1: train the classifier
 		self.train(train_search, X_fields, Y_field)
 
@@ -269,10 +268,10 @@ class SplunkRegressorBase(SplunkPredictorBase):
 		prediction_search = self.predict_splunk_search(test_search, X_fields, Y_field, '_test_predict')
 
 		#3: calculate accuracy from test set
-		accuracy, correct = self.calculate_accuracy_from_splunk_prediction_search(prediction_search, Y_field)
+		accuracy = self.calculate_accuracy_from_splunk_prediction_search(prediction_search, Y_field)
 
 		#4: report accuracy
-		print "#### test_accuracy_splunk_search: %f, num correct: %d" % (accuracy, correct)
+		print "#### test_accuracy_splunk_search: %f" % accuracy
 		return accuracy
 		
 
@@ -330,6 +329,7 @@ class SplunkRegressorBase(SplunkPredictorBase):
 
 		#2: run the job
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
+		print prediction_search
 		job = self.jobs.create(prediction_search, **search_kwargs)
 
 		#3: iterate through the job and count accuracy
@@ -339,20 +339,25 @@ class SplunkRegressorBase(SplunkPredictorBase):
 		offset = 0
 		count = 100
 		print "iterating"
+		squared_diffs = []
 		#iterate
+		print "here"
 		while (offset < total):
+			print "here2"
 			kwargs_paginate = {'count': count, 'offset':offset}
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
 				if Y_field not in result or '_test_predict' not in result:
+					print 'skipping'
 					continue #this probably should be checked 
 				if result[Y_field] == result['_test_predict']:
 					correct += 1
+				squared_diffs.append((float(result[Y_field]) - float(result['_test_predict'])) **2)
 			offset += count
 			print offset
 
 		#return accuracy
-		return correct/total, correct
+		return .5 * np.average(squared_diffs)
 
 
 

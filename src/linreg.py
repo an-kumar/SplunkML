@@ -13,6 +13,7 @@ import numpy as np
 from base_classes import SplunkRegressorBase
 import sys
 import splunkmath as sm
+from splunkmath.utils.strings import *
 from splunkmath.classes import SplunkArray
 
 vote_features = ['handicapped_infants', 'water_project_cost_sharing', 'adoption_of_the_budget_resolution','physician_fee_freeze', 'el_salvador_aid', 'religious_groups_in_schools', 'anti_satellite_test_ban','aid_to_nicaraguan_contras','mx_missile','immigration','synfuels_corporation_cutback','education_spending','superfund_right_to_sue','crime','duty_free_exports']
@@ -37,32 +38,17 @@ class SplunkLinearRegression(SplunkRegressorBase):
 		'''
 		uses splunkmath to predict every event in the splunk search.
 		'''
-		splunk_search = 'search %s' % search_string
-
-		x = sm.array(X_fields)
-		feature_averages = sm.array(self.feature_averages)
-		feature_variances = sm.array(self.feature_variances)
-		priors = sm.array(self.log_prob_priors)
-
-		expterms = sm.div(sm.pow(sm.sub(x,feature_averages), 2), feature_variances)
-		expterms = sm.mul(expterms, -.5)
-
-		pi_terms = sm.mul(sm.ln(sm.mul(sm.mul(feature_variances,2),np.pi)), -.5)
-
-		feature_probs = sm.add(pi_terms, expterms)
-
-		class_probs = sm.sum(feature_probs, axis=1)
-
-		final_probs = sm.add(priors, class_probs)
-		final_probs.rename('final_probabilities')
-		argmax_string = sm.argmax(final_probs) 
-
-		strings_concatenated = splunk_concat(splunk_search, final_probs.string)
-		strings_concatenated = splunk_concat(strings_concatenated, argmax_string)
-		# now in the splunksearch, the field final_probabilities_maxval contains either 0,1,2... etc. so we add a final thing
-		# this should be decomposed later
-		final_string = 'eval %s = case(%s)' % (output_field, ','.join(['%s=%s, %s' % ('argmax_final_probabilities', i, i) for i in range(self.num_classes)]))
-		return splunk_concat(strings_concatenated, final_string)
+		# make a bias term
+		splunk_search = 'search %s | eval bias=1' % search_string
+		# instantiate arrays for x and theta
+		x = sm.array(X_fields + ['bias']) # this is sorta hacky as well. maybe make it easier to do this with splunkmath?
+		theta = sm.array(self.theta)
+		# do the dot product
+		h_x = sm.dot(theta, sm.transpose(x)) # by convention we need to tranpose x... maybe this is the wrong convention.
+		h_x.rename_elem(0,0,output_field)
+		splunk_search_string = splunk_concat(splunk_search, h_x.string)
+		
+		return splunk_search_string
 
 
 	def predict_single_event(self, event_to_predict, X_fields, Y_field):
@@ -105,7 +91,7 @@ if __name__ == '__main__':
 	username = raw_input("What is your username? ")
 	password = raw_input("What is your password? ")
 	slr = SplunkLinearRegression(host="localhost", port=8089, username=username, password=password)
-	slr.test_accuracy_single_event(reaction_search, reaction_search,reaction_features, reaction_class)
+	slr.test_accuracy_splunk_search(reaction_search, reaction_search,reaction_features, reaction_class)
 	
 
 

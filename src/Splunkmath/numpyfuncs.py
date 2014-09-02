@@ -133,7 +133,7 @@ def transpose(sa):
 	new_sa.string = sa.string + '| '
 	for i in range(new_sa.shape[0]):
 		for j in range(new_sa.shape[1]):
-			new_sa.string += 'eval %s_%s_%s = %s_%s_%s | ' % (new_sa.name, i, j, sa.name, j, i)
+			new_sa.string += 'eval %s_%s_%s = %s | ' % (new_sa.name, i, j, sa.elems[j][i])
 	new_sa.string = new_sa.string[:-2]
 	new_sa.find_elements()
 	return new_sa
