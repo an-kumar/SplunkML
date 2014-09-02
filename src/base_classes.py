@@ -329,7 +329,7 @@ class SplunkRegressorBase(SplunkPredictorBase):
 
 		#2: run the job
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
-		print prediction_search
+		
 		job = self.jobs.create(prediction_search, **search_kwargs)
 
 		#3: iterate through the job and count accuracy
@@ -341,9 +341,9 @@ class SplunkRegressorBase(SplunkPredictorBase):
 		print "iterating"
 		squared_diffs = []
 		#iterate
-		print "here"
+		
 		while (offset < total):
-			print "here2"
+		
 			kwargs_paginate = {'count': count, 'offset':offset}
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
