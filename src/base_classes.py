@@ -16,14 +16,10 @@ import numpy as np
 import sys
 
 
-class SplunkPredictorBase(object):
-	''' SplunkPredictorBase
-
-	Base class of splunk predictors.
-
+class SplunkBase(object):
 	'''
-
-
+	base of splunk objects; mainly has an __init__ function
+	'''
 	def __init__(self, host, port, username, password):
 		self.service = client.connect(host=host, port=port, username=username, password=password)
 		self.jobs = self.service.jobs
@@ -32,6 +28,55 @@ class SplunkPredictorBase(object):
 		self.accuracy_tested = False
 		self.feature_mapping = {}
 		self.class_mapping = {}
+
+class SplunkProjectorBase(SplunkBase):
+	''' SplunkProjectorBase
+
+	Base class of splunk ML objects that do dimensionality reduction (projections)
+
+	'''
+	def __init__(self, host, port, username, password):
+		super(SplunkProjectorBase, self).__init__(host, port, username, password)
+
+### -- [FUNCTIONS TO OVERWRITE] -- ###	
+
+	def project_splunk_search():
+		'''
+			to overwrite
+
+			must return a splunk search string that ends with an eval output_field_i_j = i,j'th value of the projection
+		'''
+		raise NotImplementedError
+
+	def project_single_event():
+		'''
+			to overwrite
+
+			must return a projection of X_fields
+		'''
+		raise NotImplementedError
+
+
+	def train():
+		'''
+			to overwrite
+
+			must train params on the data returned by search_string, and store params in the class
+		'''
+		raise NotImplementedError	
+
+
+
+class SplunkPredictorBase(SplunkBase):
+	''' SplunkPredictorBase
+
+	Base class of splunk predictors.
+
+	'''
+
+
+	def __init__(self, host, port, username, password):
+		super(SplunkPredictorBase, self).__init__(host, port, username, password)
 
 
 ### -- [FUNCTIONS TO OVERWRITE] -- ##

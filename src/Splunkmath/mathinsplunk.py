@@ -30,7 +30,9 @@ def job_to_numpy_reps(job, feature_mapping, class_field, type_tuple, bias=False)
 
 	type_tuple must have, in both indices, 'continouous' or 'discrete'
 
-	returns X, y 
+	returns X, y
+
+	note: if only X is required (no y), for now just pass one of the X values into class field and disregard it
 	'''
 	# find correct numpy reps func
 	to_numpy_reps_func = find_correct_to_numpy_reps_func(type_tuple)
