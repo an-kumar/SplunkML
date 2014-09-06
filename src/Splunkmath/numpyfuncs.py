@@ -27,11 +27,7 @@ def to_one_hot(fields, onehot_mapping=None, ordering=None):
 	# THIS MIGHT NOT WORK IF THE FIELD VALUES ARE INTS!!!
 	splunk_string = ' | '.join(['eval onehot_0_{j}=if({correct_field} == "{field_value}",1,0)'.format(j=j, correct_field=tuples[j][0], field_value=tuples[j][1]) for j in range(len(tuples))])
 	fields = ['onehot_0_%s' % i for i in range(len(tuples))]
-	print len(fields)
-	print ordering
-
-	print len(tuples)
-
+	
 	sa = array(fields)
 	sa.string = splunk_concat(splunk_string, sa.string)
 	return sa

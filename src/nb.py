@@ -196,7 +196,6 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		# 2: find P(x_'s|c) using naive bayes assumption
 		class_log_prob = np.dot(self.log_prob_suff_stats, numpy_rep)[:,0]
 
-		print class_log_prob
 		
 		# 3: multiply in (add in log space) priors
 		class_log_prob += self.log_prob_priors
@@ -225,7 +224,7 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		# now the field argmax_prob_0_0 is the index of new_prob_vec's maximum argument
 		case_mapping_string = sm.case_mapping(self.class_mapping, 'argmax_prob_0_0', output_field)
 		splunk_search += splunk_concat(argmax_sa.string, case_mapping_string)
-		print splunk_search
+		
 		return splunk_search
 
 
