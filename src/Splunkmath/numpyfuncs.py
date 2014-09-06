@@ -35,7 +35,7 @@ def array(argument):
 		- a splunkarray from the input argument
 	'''
 	# try a bunch of different types:
-	if type(argument) in set(float, np.float64, int):
+	if type(argument) in set([float, np.float64, int]):
 		shape = (1,1)
 		elems = np.array([[argument]])
 	elif type(argument) == list:

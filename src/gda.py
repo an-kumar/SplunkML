@@ -15,9 +15,6 @@ import sys
 import splunkmath as sm
 from splunkmath.classes import SplunkArray
 
-vote_features = ['handicapped_infants', 'water_project_cost_sharing', 'adoption_of_the_budget_resolution','physician_fee_freeze', 'el_salvador_aid', 'religious_groups_in_schools', 'anti_satellite_test_ban','aid_to_nicaraguan_contras','mx_missile','immigration','synfuels_corporation_cutback','education_spending','superfund_right_to_sue','crime','duty_free_exports']
-vote_search = 'source="/Users/ankitkumar/Documents/Code/SplunkML/naivebayes/splunk_votes_correct.txt"'
-vote_class = 'party'
 
 
 reaction_features = ['field%s' % i for i in range(1,45)]
@@ -224,30 +221,6 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		
 		return splunk_search
 
-
-
-
-
-	def predict(self, feature_fields, class_field, event_to_predict, return_numpy_rep=False):
-		'''
-			predict(*)
-
-			notes: uses GDA model to estimate p(x|y), and gets p(y|x) as p(x|y)p(y)/p(x), where p(x) is constant for 
-			the classification task.
-		'''
-		# 1: turn into np representation
-		numpy_rep = self.to_numpy_rep(event_to_predict, feature_fields)
-		# 2: find p(x|y)
-		p_x_given_y = np.array([self.mnvs[i].pdf(numpy_rep) for i in range(self.num_classes)])
-		
-		#3: go to log space
-		log_prob = np.log(p_x_given_y)
-		
-		#4: add priors
-		log_prob += self.log_prob_priors
-		
-		#5: return argmax
-		return self.class_mapping[np.argmax(log_prob)]
 
 		
 
