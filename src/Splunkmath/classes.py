@@ -9,14 +9,6 @@ Implements scalar, vector, matrix all in one. i.e a scalar is a 1x1 SplunkArray
 '''
 import numpy as np
 
-def find_elements_from_name_shape(name, shape):
-	'''
-	returns an array of shape "shape" that contains, in the i,j'th position, name_i_j.
-
-	note that this function(or a similar one) could be written to return an interable over these names so that the array is never explicitly created
-	'''
-	return np.array([['%s_%s_%s' % (name, i, j) for j in range(shape[1])] for i in range(shape[0])], dtype=object)
-
 
 
 class SplunkArray(object):
@@ -59,33 +51,41 @@ class SplunkArray(object):
 
 # -------- TO REWRITE: find_elements() should also set the string perhaps? pass in array to __init__ numpy style?
 
-	def initialize_from_vector(self, vector):
-		'''
-		initializes the splunk array from a vector
-		'''
-		# todo: shape checking
-		for i in range(self.shape[0]):
-			for j in range(self.shape[1]):
-				# note that the shape of a SplunkArray vector is (1, length) i.e a row vector
-				self.string += 'eval %s_%s_%s = %s | ' % (self.name, i, j, vector[j]) 
-		self.string = self.string[:-2]
-		self.find_elements()
+	# def initialize_from_vector(self, vector):
+	# 	'''
+	# 	initializes the splunk array from a vector
+	# 	'''
+	# 	# todo: shape checking
+	# 	for i in range(self.shape[0]):
+	# 		for j in range(self.shape[1]):
+	# 			# note that the shape of a SplunkArray vector is (1, length) i.e a row vector
+	# 			self.string += 'eval %s_%s_%s = %s | ' % (self.name, i, j, vector[j]) 
+	# 	self.string = self.string[:-2]
+	# 	self.find_elements()
 
-	def initialize_from_matrix(self, matrix):
+	# def initialize_from_matrix(self, matrix):
+	# 	'''
+	# 	intializes the splunk array from a matrix (i.e M x N where M, N != 1)
+	# 	'''
+	# 	# todo: shape checking
+	# 	for i in range(self.shape[0]):
+	# 		for j in range(self.shape[1]):
+	# 			# note that the shape of a SplunkArray vector is (1, length) i.e a row vector
+	# 			self.string += 'eval %s_%s_%s = %s | ' % (self.name, i, j, matrix[i][j]) 
+	# 	self.string = self.string[:-2]
+	# 	self.find_elements()
+
+	def find_elements_from_name_shape(self, name, shape):
 		'''
-		intializes the splunk array from a matrix (i.e M x N where M, N != 1)
+		returns an array of shape "shape" that contains, in the i,j'th position, name_i_j.
+
+		note that this function(or a similar one) could be written to return an interable over these names so that the array is never explicitly created
 		'''
-		# todo: shape checking
-		for i in range(self.shape[0]):
-			for j in range(self.shape[1]):
-				# note that the shape of a SplunkArray vector is (1, length) i.e a row vector
-				self.string += 'eval %s_%s_%s = %s | ' % (self.name, i, j, matrix[i][j]) 
-		self.string = self.string[:-2]
-		self.find_elements()
+		return np.array([['%s_%s_%s' % (name, i, j) for j in range(shape[1])] for i in range(shape[0])], dtype=object)
 
 
 	def find_elements(self, name=None):
-		self.elems = find_elements_from_name_shape(self.name, self.shape)
+		self.elems = self.find_elements_from_name_shape(self.name, self.shape)
 # -------- TO REWRITE: find_elements() should also set the string perhaps? pass in array to __init__ numpy style?
 
 	def T(self):
@@ -103,7 +103,7 @@ class SplunkArray(object):
 		'''
 		renames the splunkarray to the given name using regexp
 		'''
-		new_elems = find_elements_from_name_shape(new_name, self.shape)
+		new_elems = self.find_elements_from_name_shape(new_name, self.shape)
 		for i,j in self.iterable():
 			self.string = self.string.replace(self.elems[i][j], new_elems[i][j])
 		self.name = new_name

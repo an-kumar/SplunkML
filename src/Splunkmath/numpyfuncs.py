@@ -35,7 +35,7 @@ def array(argument):
 		- a splunkarray from the input argument
 	'''
 	# try a bunch of different types:
-	if type(argument) == float or type(argument) == int:
+	if type(argument) in set(float, np.float64, int):
 		shape = (1,1)
 		elems = np.array([[argument]])
 	elif type(argument) == list:
@@ -46,7 +46,7 @@ def array(argument):
 			shape = (1, len(argument))
 			elems = np.array([argument])
 	elif type(argument) == np.ndarray:
-		# numpy uses the (n,) convention for n length arrays - so far, splunkmath uses (1,n). so we need to check for htat.
+		# numpy uses the (n,) convention for n length arrays - so far, splunkmath uses (1,n). so we need to check for that.
 		if len(argument.shape) == 1:
 			shape = (1, argument.shape[0])
 			elems = np.array([argument])
@@ -55,6 +55,7 @@ def array(argument):
 			elems = argument
 
 	else:
+		print argument
 		raise Exception("You didn't pass in a float, int, list, or numpy array. You passed in a %s" % type(argument))
 
 	# now initialize an empty SplunkArray, name doesn't matter
@@ -81,21 +82,21 @@ def sum(sa, axis=1):
 
 
 
-def from_scalar(name, scalar):
-	sa = SplunkArray(name, (1,1))
-	sa.string = 'eval %s_0_0 = %s' % (sa.name, str(scalar))
-	sa.find_elements()
-	return sa
+# def from_scalar(name, scalar):
+# 	sa = SplunkArray(name, (1,1))
+# 	sa.string = 'eval %s_0_0 = %s' % (sa.name, str(scalar))
+# 	sa.find_elements()
+# 	return sa
 
-def from_matrix(name, matrix):
-	sa = SplunkArray(name, matrix.shape)
-	sa.initialize_from_matrix(matrix)
-	return sa
+# def from_matrix(name, matrix):
+# 	sa = SplunkArray(name, matrix.shape)
+# 	sa.initialize_from_matrix(matrix)
+# 	return sa
 
-def from_vector(name, vector):
-	sa = SplunkArray(name, len(vector))
-	sa.initialize_from_vector(vector)
-	return sa
+# def from_vector(name, vector):
+# 	sa = SplunkArray(name, len(vector))
+# 	sa.initialize_from_vector(vector)
+# 	return sa
 
 def zeros(shape):
 	'''

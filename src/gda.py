@@ -42,7 +42,7 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 
 	def sufficient_statistics_splunk_search(self, search_string, feature_fields, class_field):
 		splunk_search = 'search %s | stats avg, count by %s' % (search_string, class_field)
-		print splunk_search
+		
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
 		job = self.jobs.create(splunk_search, **search_kwargs)
 		return job
@@ -115,7 +115,7 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		eval_string += ' | stats avg(matrix*)'
 
 		splunk_search = 'search %s | %s' % (search_string, eval_string)
-		print splunk_search
+		
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
 		job = self.jobs.create(splunk_search, **search_kwargs)
 
@@ -193,13 +193,13 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		'''
 		TODO COMMENT: if can pass in self.sufficient_statistics as a vector rather than first going to splunk string, would be better
 		'''
-		features = sm.from_vector('features', feature_fields)
-		suffstats = sm.from_matrix('suffstats', self.sufficient_statistics)
+		features = sm.array(feature_fields)
+		suffstats = sm.array(self.sufficient_statistics)
 		meandiff = sm.sub(features,suffstats)
 
 		# 3: now we're making the exp term in the multivariate gaussian pdf. it's meandiff dot cov dot meandiff.T
 		# first we get dot(meandiff, inv_cov_matrix)
-		icm = sm.from_matrix('invcovmatrix', self.inv_cov_matrix)
+		icm = sm.array(self.inv_cov_matrix)
 		temp = sm.dot(meandiff,icm)
 		# cxn * nxn -> cxn
 		# now cxn * nxc => cxc
@@ -211,8 +211,8 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		# multiplied_expterms.rename('expterm')
 		# make the pi term and ln it
 		pi_term = np.pi**(len(feature_fields)/float(2))
-		multterm = sm.ln(sm.from_scalar('multerm',(1/(self.cov_det_root*pi_term))))
-		prob_vec = sm.from_vector('prob', self.log_prob_priors)
+		multterm = sm.ln(sm.array((1/(self.cov_det_root*pi_term))))
+		prob_vec = sm.array(self.log_prob_priors)
 		# splunk vector broadcasting takes care of the rest
 		new_prob_vec = sm.add(sm.sub(prob_vec,multterm),multiplied_expterms)
 		new_prob_vec.rename('prob')
@@ -221,7 +221,7 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		splunk_search += 'eval %s=if(prob_0_0>prob_0_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
 
 
-		print splunk_search
+		
 		return splunk_search
 
 
