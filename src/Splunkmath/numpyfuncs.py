@@ -23,7 +23,10 @@ def argmax(sa):
 	'''
 	string = 'eval maxval = max(%s)' % ','.join([str(elem) for elem in sa.elems[0]])
 	nextstring = 'eval argmax_%s = case(%s)' % (sa.name,','.join(['%s=maxval, %s' % (str(sa.elems[0][i]), str(i)) for i in range(len(sa.elems[0]))]))
-	return splunk_concat (string, nextstring)
+	full = splunk_concat(string, nextstring)
+	new_sa = array(['argmax_%s' % sa.name])
+	new_sa.string = splunk_concat(sa.string, full)
+	return new_sa
 
 def array(argument):
 	'''

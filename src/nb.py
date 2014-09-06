@@ -128,7 +128,7 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		
 
 
-	def train_classifier(self, search_string, feature_fields, class_field):
+	def train(self, search_string, feature_fields, class_field):
 		'''
 			train_classifier(search_string, feature_fields, class_field)
 
@@ -173,41 +173,14 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 
 
 
-	# def make_eval_string(self, feature_fields):
-	# 	'''
-	# 	makes splunk eval string for predict(*)
-	# 	'''
-	# 	eval_string = ''
-	# 	for i in range(len(self.log_prob_priors)):
-	# 		eval_string += '| eval class_%_prob='
-	# 		for field in feature_fields:
-	# 			eval_string += '%s+' % self.log_prob_suff_stats[self.mapping['%s_%s' % (field, )]
-
-
-
-
-
-	def predict(self, feature_fields, class_field, event_to_predict, return_numpy_rep=False):
+	def predict_single_event(self, event_to_predict, X_fields, Y_field):
 		'''
-			predict(*)
 
 			notes: uses naive bayes assumption: P(c=x) is proportional P(x_i's|c)P(c). P(c) is the prior, P(x_i's|c) decomposes to 
 			P(x_1|c)P(x_2|c)...P(x_n|c); these are all calculated in log space using dot product.
 		'''
-		# # 1: make the probability eval strings
-		# eval_string = self.make_eval_string(feature_fields, class_field)
-
-
-
-
-		# splunk_search = 'search %s | '
-
-
-
-
-
 		# 1: get numpy representation
-		numpy_rep = self.to_numpy_rep(event_to_predict, feature_fields)
+		numpy_rep = self.to_numpy_rep(event_to_predict, X_fields)
 
 		# 2: find P(x_'s|c) using naive bayes assumption
 		class_log_prob = np.dot(self.log_prob_suff_stats, numpy_rep)[:,0]
@@ -220,22 +193,13 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		else:
 			return self.mapping[np.argmax(class_log_prob)]
 
-
-	def compare_sklearn(self):
+	def predict_splunk_search(self, search_string, feature_fields, class_field, output_field):
 		'''
-			compares our implementation to sklearn's implementation. 
-
-			assumes that evaluate_accuracy has been called.
+		returns a string that contains the correct field
 		'''
-		if not self.accuracy_tested:
-			raise 'you must test the accuracy of the classifier before comparing to sklearn'
-		print "--> Checking sklearn's accuracy..."
-		X = np.array(self.np_reps)
-		nb = BernoulliNB(alpha=0)
-		y = np.array(self.gold)
-		nb.fit(X,y)
-		print "...done."
-		print "sklearn accuracy is %f. Our accuracy was %f. " % (nb.score(X,y), self.accuracy)
+		pass
+
+
 
 
 

@@ -11,6 +11,14 @@ import numpy as np
 from utils.strings import *
 from numpyfuncs import *
 
+def case_mapping(mapping, index_field, output_field):
+	'''
+	adds a string output_field which is equal to mapping[index_field]
+
+	assumes index_field contains a single element that can be indexed by mapping
+	'''
+	string = 'eval %s = case(%s)' % (output_field, ','.join(['%s=%s,%s' % (index_field, elem, mapping[elem]) for elem in mapping]))
+	return string
 
 def search_to_numpy_reps(splunk_search, feature_mapping, class_field, type_tuple):
 	'''

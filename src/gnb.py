@@ -187,9 +187,8 @@ class SplunkGaussianNaiveBayes(SplunkClassifierBase):
 if __name__ == '__main__':
 	username = raw_input("What is your username? ")
 	password = raw_input("What is your password? ")
-	snb = SplunkGaussianNaiveBayes(host="localhost", port=8089, username=username, password=password)
-	snb.train(reaction_search, reaction_features, reaction_class)
-	snb.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
+	gnb = SplunkGaussianNaiveBayes(host="localhost", port=8089, username=username, password=password)
+	gnb.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
 	# searchstring = snb.predict_splunk_search(reaction_features, reaction_class,reaction_search, 'test_output')
 	# event = {x:60 for x in reaction_features}
 	output= snb.test_accuracy_single_event(reaction_search, reaction_search, reaction_features, reaction_class)

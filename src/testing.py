@@ -9,6 +9,18 @@ reaction_features = ['field%s' % i for i in range(1,45)]
 reaction_search = 'source="/Users/ankitkumar/Documents/coding/SplunkML/splunk_second_cont.txt"'
 reaction_class = 'success'
 
-snb = SplunkGaussianDiscriminantAnalysis(host="localhost", port=8089, username='admin', password='flower00')
-snb.train(reaction_search, reaction_features, reaction_class)
-snb.predict(reaction_search, reaction_features, reaction_class)
+username = raw_input("What is your username? ")
+password = raw_input("What is your password? ")
+
+# GDA#
+gda = SplunkGaussianDiscriminantAnalysis(host="localhost", port=8089, username=username, password=password)
+gda.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
+
+#GNB # 
+gnb = SplunkGaussianNaiveBayes(host="localhost", port=8089, username=username, password=password)
+gnb.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
+
+# LINREG#
+slr = SplunkLinearRegression(host="localhost", port=8089, username=username, password=password)
+slr.test_accuracy_splunk_search(reaction_search, reaction_search,reaction_features, reaction_class)
+

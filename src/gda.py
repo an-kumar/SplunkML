@@ -13,6 +13,7 @@ import numpy as np
 from base_classes import SplunkClassifierBase
 import sys
 import splunkmath as sm
+from splunkmath.utils.strings import *
 from splunkmath.classes import SplunkArray
 
 
@@ -65,7 +66,7 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
 				# set mapping
-				self.class_mapping[result[class_field]] = class_curr
+				# self.class_mapping[result[class_field]] = class_curr
 				self.class_mapping[class_curr] = result[class_field]
 				# update prior
 				self.priors[class_curr] = result['count']
@@ -213,9 +214,15 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 		# splunk vector broadcasting takes care of the rest
 		new_prob_vec = sm.add(sm.sub(prob_vec,multterm),multiplied_expterms)
 		new_prob_vec.rename('prob')
-		splunk_search += new_prob_vec.string + ' | '
-		# eval string needs to change, but all math is done, thanks to splunkvector!
-		splunk_search += 'eval %s=if(prob_0_0>prob_0_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
+		# make argmax splunkarray
+		argmax_sa = sm.argmax(new_prob_vec)
+		argmax_sa.rename('argmax_prob')
+		# now the field argmax_prob_0_0 is the index of new_prob_vec's maximum argument
+		case_mapping_string = sm.case_mapping(self.class_mapping, 'argmax_prob_0_0', output_field)
+		splunk_search += splunk_concat(argmax_sa.string, case_mapping_string)
+		
+		# eval string needs to change, but all math is done
+		# splunk_search += 'eval %s=if(prob_0_0>prob_0_1,"%s","%s")' % (output_field, self.class_mapping[0], self.class_mapping[1]) ## NEED TO CHANGE THE STRINGS 0, 1!!!
 
 
 		
@@ -229,8 +236,8 @@ class SplunkGaussianDiscriminantAnalysis(SplunkClassifierBase):
 if __name__ == '__main__':
 	username = raw_input("What is your username? ")
 	password = raw_input("What is your password? ")
-	snb = SplunkGaussianDiscriminantAnalysis(host="localhost", port=8089, username=username, password=password)
-	snb.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
+	gda = SplunkGaussianDiscriminantAnalysis(host="localhost", port=8089, username=username, password=password)
+	gda.test_accuracy_splunk_search(reaction_search, reaction_search, reaction_features, reaction_class)
 	# snb.train(reaction_search, reaction_features, reaction_class)
 	# snb.make_splunk_prediction_search_string(reaction_search, reaction_features, reaction_class)
 	# snb.evaluate_accuracy(reaction_search, reaction_features, reaction_class)
