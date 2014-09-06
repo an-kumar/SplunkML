@@ -16,9 +16,11 @@ from collections import defaultdict
 import numpy as np
 from base_classes import SplunkClassifierBase
 import sys
+import splunkmath as sm
+from splunkmath.utils.strings import *
 
 vote_features = ['handicapped_infants', 'water_project_cost_sharing', 'adoption_of_the_budget_resolution','physician_fee_freeze', 'el_salvador_aid', 'religious_groups_in_schools', 'anti_satellite_test_ban','aid_to_nicaraguan_contras','mx_missile','immigration','synfuels_corporation_cutback','education_spending','superfund_right_to_sue','crime','duty_free_exports']
-vote_search = 'source="/Users/ankitkumar/Documents/coding/205Consulting/OpenSource/SplunkML/naivebayes/splunk_votes_correct.txt"'
+vote_search = 'source="/Users/ankitkumar/Documents/Code/SplunkML/data/splunk_votes_correct.txt"'
 vote_class = 'party'
 
 
@@ -50,7 +52,7 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		csl = self.make_csl(feature_fields + [class_field])
 		search_string = 'search %s | table %s | untable %s field value |stats count by %s field value' % (search_string, csl, class_field, class_field)
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
-		print search_string
+	
 		job = self.jobs.create(search_string, **search_kwargs)
 		return job
 
@@ -90,17 +92,26 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		search_string = 'search %s | stats values' % (search_string)
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
 		job = self.jobs.create(search_string, **search_kwargs)
-
+		
 		search_results = job.results()
 		for result in results.ResultsReader(search_results):
 			self.mapping = {result['values(%s)' % class_field][i]:i for i in range(len(result['values(%s)' % class_field]))}
 			self.num_classes = len(self.mapping)
+			self.class_mapping = {}
 			for elem in self.mapping.items():
 				self.mapping[elem[1]] = elem[0]
+				self.class_mapping[elem[1]] = elem[0]
 			curr_index = 0
+			self.feature_onehot_mapping= {}
+			self.onehot_ordering = []
 			for field in feature_fields:
+				self.feature_onehot_mapping[field] = []
+				self.onehot_ordering.append(field)
 				for value in result['values(%s)' % field]:
+					self.feature_onehot_mapping[field].append(value)
+					
 					self.mapping['%s_%s' % (field,value)] = curr_index
+
 					curr_index += 1
 
 		self.num_features = curr_index
@@ -185,19 +196,37 @@ class SplunkNaiveBayes(SplunkClassifierBase):
 		# 2: find P(x_'s|c) using naive bayes assumption
 		class_log_prob = np.dot(self.log_prob_suff_stats, numpy_rep)[:,0]
 
+		print class_log_prob
+		
 		# 3: multiply in (add in log space) priors
 		class_log_prob += self.log_prob_priors
-		if return_numpy_rep:
-			actual_class = self.mapping[event_to_predict[class_field]]
-			return self.mapping[np.argmax(class_log_prob)], numpy_rep.T[0], actual_class
-		else:
-			return self.mapping[np.argmax(class_log_prob)]
 
-	def predict_splunk_search(self, search_string, feature_fields, class_field, output_field):
+
+		
+		return self.class_mapping[np.argmax(class_log_prob)]
+
+	def predict_splunk_search(self, search_string, X_fields, Y_field, output_field):
 		'''
 		returns a string that contains the correct field
 		'''
-		pass
+		splunk_search = 'search %s | ' % search_string 
+		x = sm.to_one_hot(X_fields, onehot_mapping=self.feature_onehot_mapping, ordering=self.onehot_ordering)
+		class_log_probs = sm.array(self.log_prob_suff_stats)
+
+		# dot the two
+		x_dot_logprobs = sm.dot(x, class_log_probs.T())
+		priors = sm.array(self.log_prob_priors)
+
+		# add the priors
+		final_probs = sm.add(x_dot_logprobs, priors)
+
+		argmax_sa = sm.argmax(final_probs)
+		argmax_sa.rename('argmax_prob')
+		# now the field argmax_prob_0_0 is the index of new_prob_vec's maximum argument
+		case_mapping_string = sm.case_mapping(self.class_mapping, 'argmax_prob_0_0', output_field)
+		splunk_search += splunk_concat(argmax_sa.string, case_mapping_string)
+		print splunk_search
+		return splunk_search
 
 
 
@@ -207,5 +236,5 @@ if __name__ == '__main__':
 	username = raw_input("What is your username? ")
 	password = raw_input("What is your password? ")
 	snb = SplunkNaiveBayes(host="localhost", port=8089, username=username, password=password)
-	snb.evaluate_accuracy(vote_search, vote_features, vote_class)
+	snb.test_accuracy_splunk_search(vote_search, vote_search, vote_features, vote_class)
 	# snb.compare_sklearn()

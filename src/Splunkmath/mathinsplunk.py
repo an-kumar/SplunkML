@@ -17,7 +17,7 @@ def case_mapping(mapping, index_field, output_field):
 
 	assumes index_field contains a single element that can be indexed by mapping
 	'''
-	string = 'eval %s = case(%s)' % (output_field, ','.join(['%s=%s,%s' % (index_field, elem, mapping[elem]) for elem in mapping]))
+	string = 'eval %s = case(%s)' % (output_field, ','.join(['%s == %s,"%s"' % (index_field, elem, mapping[elem]) for elem in mapping]))
 	return string
 
 def search_to_numpy_reps(splunk_search, feature_mapping, class_field, type_tuple):

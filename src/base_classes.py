@@ -126,7 +126,7 @@ class SplunkClassifierBase(SplunkPredictorBase):
 		self.train(train_search, X_fields, Y_field)
 
 		#2: predict the test search
-		prediction_search = self.predict_splunk_search(test_search, X_fields, Y_field, '_test_predict')
+		prediction_search = self.predict_splunk_search(test_search, X_fields, Y_field, 'test_predict_UNIQ')
 
 		#3: calculate accuracy from test set
 		accuracy, correct = self.calculate_accuracy_from_splunk_prediction_search(prediction_search, Y_field)
@@ -186,7 +186,7 @@ class SplunkClassifierBase(SplunkPredictorBase):
 
 	def calculate_accuracy_from_splunk_prediction_search(self, prediction_search, Y_field):
 		#1: cut the fields to just the ones we're interested in
-		prediction_search += '| table %s, _test_predict' % Y_field
+		prediction_search += '| table %s, test_predict_UNIQ' % Y_field
 
 		#2: run the job
 		search_kwargs = {'timeout':1000, 'exec_mode':'blocking'}
@@ -204,9 +204,9 @@ class SplunkClassifierBase(SplunkPredictorBase):
 			kwargs_paginate = {'count': count, 'offset':offset}
 			search_results = job.results(**kwargs_paginate)
 			for result in results.ResultsReader(search_results):
-				if Y_field not in result or '_test_predict' not in result:
+				if Y_field not in result or 'test_predict_UNIQ' not in result:
 					continue #this probably should be checked 
-				if result[Y_field] == result['_test_predict']:
+				if result[Y_field] == result['test_predict_UNIQ']:
 					correct += 1
 			offset += count
 			print offset

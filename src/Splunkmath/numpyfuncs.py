@@ -4,7 +4,38 @@ import numpy as np
 from classes import *
 '''
 numpyfuncs: functions that copy numpy funtions, but written for splunkmath
+also functions that aren't exactly numpy.
 '''
+
+def to_one_hot(fields, onehot_mapping=None, ordering=None):
+	'''
+	returns a splunkarray that has elements the onehot mapping of fields.
+
+	onehot_mapping is assumed to be a dict that maps field -> list of values that field can take on.
+	ordering is assumed to be a list of exactly the elements in onehot_mapping
+
+	ONLY RETURNS A VECTOR
+	'''
+	if onehot_mapping is None or ordering is None:
+		
+		raise NotImplementedError #to implement; perhaps this is needed.
+	# first, we make a list of tuples (field, field_value) in the correct order
+	tuples = []
+	for elem in ordering:
+		for value in onehot_mapping[elem]:
+			tuples.append((elem,value))
+	# THIS MIGHT NOT WORK IF THE FIELD VALUES ARE INTS!!!
+	splunk_string = ' | '.join(['eval onehot_0_{j}=if({correct_field} == "{field_value}",1,0)'.format(j=j, correct_field=tuples[j][0], field_value=tuples[j][1]) for j in range(len(tuples))])
+	fields = ['onehot_0_%s' % i for i in range(len(tuples))]
+	print len(fields)
+	print ordering
+
+	print len(tuples)
+
+	sa = array(fields)
+	sa.string = splunk_concat(splunk_string, sa.string)
+	return sa
+	
 
 
 
@@ -22,7 +53,7 @@ def argmax(sa):
 		- THIS NEEDS TO HEAVILY CHANGE ( return a splunkarray maybe )
 	'''
 	string = 'eval maxval = max(%s)' % ','.join([str(elem) for elem in sa.elems[0]])
-	nextstring = 'eval argmax_%s = case(%s)' % (sa.name,','.join(['%s=maxval, %s' % (str(sa.elems[0][i]), str(i)) for i in range(len(sa.elems[0]))]))
+	nextstring = 'eval argmax_%s = case(%s)' % (sa.name,','.join(['%s == maxval, %s' % (str(sa.elems[0][i]), str(i)) for i in range(len(sa.elems[0]))]))
 	full = splunk_concat(string, nextstring)
 	new_sa = array(['argmax_%s' % sa.name])
 	new_sa.string = splunk_concat(sa.string, full)
